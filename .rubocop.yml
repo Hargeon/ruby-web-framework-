@@ -1,0 +1,18 @@
+AllCops:
+  EnabledByDefault: true
+  TargetRubyVersion: 2.4
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Layout/LineLength:
+  Max: 120
+
+Style/Copyright:
+  Enabled: true
+  AutocorrectNotice: 'Copyright 2021 by Hargeon'
